@@ -11,7 +11,9 @@ export const NavbarComponent = () => {
     <Navbar
       style={{
         backdropFilter: "blur(20px)",
+
         backgroundColor: "rgba(255,255,255,.7)",
+        WebkitBackdropFilter: "blur(20px)",
       }}
       collapseOnSelect
       expand="lg"
