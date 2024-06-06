@@ -17,7 +17,16 @@ function App() {
       {/* Imagen de fondo */}
 
       {/* Navbar */}
-      <div style={{ position: "fixed", width: "100%", zIndex: "10" }}>
+      <div
+        className="rounded-3"
+        style={{
+          position: "fixed",
+          width: "90%",
+          zIndex: "10",
+          left: "5%",
+          top: "2%",
+        }}
+      >
         <NavbarComponent />
       </div>
       <Rutes></Rutes>

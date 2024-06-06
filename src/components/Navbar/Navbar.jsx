@@ -3,17 +3,33 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import "./Navbar.css";
 import { Link } from "react-router-dom";
+import { Icon } from "@mui/material";
 export const NavbarComponent = () => {
   return (
     <Navbar
       style={{ zIndex: "1", backdropFilter: "blur(5px)" }}
       collapseOnSelect
       expand="lg"
-      className="bg-transparent"
+      className="bg-transparent shadow rounded-3"
     >
       <Container>
         <Navbar.Brand className="fw-bold">
-          <Link to={"/"}>Sel Agropauny</Link>
+          <Link
+            to={"/"}
+            className="d-flex justify-content-center align-items-center"
+          >
+            <img
+              src="./pauny-sin-fondo.png"
+              width={30}
+              height={30}
+              className="shadow me-2  bg-light"
+              style={{
+                objectFit: "cover",
+                borderRadius: "1000px",
+              }}
+            ></img>
+            Sel Agropauny
+          </Link>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">

@@ -27,9 +27,9 @@ export const PageServicios = () => {
       </ParallaxLayer>
       <ParallaxLayer factor={isMobile ? 1.5 : 1.3} offset={0.7} speed={0.2}>
         <div
-          className=" container-fluid py-5 aparecer"
+          className="py-5 aparecer"
           style={{
-            maxWidth: "1200px",
+            // maxWidth: "1200px",
             minHeight: isMobile ? "150vh" : "100vh",
           }}
         >
