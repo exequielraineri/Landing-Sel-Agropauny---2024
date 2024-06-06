@@ -1,0 +1,33 @@
+
+.aparecer{
+    animation: animacion .5s ease-in-out forwards;
+    }
+    
+.aparecer-fondo{
+animation: animacion-fondo .5s ease-in-out forwards;
+}
+
+
+@keyframes animacion{
+    from{
+        opacity: 0;
+        filter:blur(10px);
+        transform: translateY(50px);
+        }
+        to{
+            opacity: 1;
+            filter:blur(0);
+            transform: translateY(0);
+    }
+}
+
+@keyframes animacion-fondo{
+    from{
+        opacity: 0;
+        filter:blur(10px);
+        }
+        to{
+            opacity: .5;
+            filter:blur(0);
+    }
+}
