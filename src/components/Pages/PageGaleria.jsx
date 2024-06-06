@@ -23,11 +23,12 @@ export const PageGaleria = () => {
             height: "100vh",
             objectFit: "cover",
             objectPosition: "center",
-            opacity: 0.6,
+            // opacity: 0.6,
           }}
           src="/fondo.jpg"
           alt="Background"
         />
+        <div className="img-fondo"></div>
       </ParallaxLayer>
       <ParallaxLayer offset={0.7} speed={0.3}>
         <Carrusel></Carrusel>

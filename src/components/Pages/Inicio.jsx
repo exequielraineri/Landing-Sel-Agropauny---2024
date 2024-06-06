@@ -17,7 +17,7 @@ export const Inicio = () => {
           <img
             className="aparecer-fondo"
             style={{
-              zIndex: "-4",
+              zIndex: "0",
               position: "absolute",
               top: "0",
               left: "0",
@@ -25,12 +25,12 @@ export const Inicio = () => {
               height: "100vh",
               objectFit: "cover",
               objectPosition: "top",
-              opacity: 0.6,
             }}
             loading="eager"
             src="./fondo.jpg"
             alt="Background"
           />
+          <div className="img-fondo"></div>
         </ParallaxLayer>
         <ParallaxLayer
           style={{
@@ -46,7 +46,7 @@ export const Inicio = () => {
             className=" aparecer container-fluid bg-light my-5 py-5 d-flex flex-column align-items-center"
             style={{
               position: "relative",
-              minHeight: "120vh",
+              minHeight: "200vh",
               clipPath: "polygon(0 0, 100% 5%, 100% 100%, 0 95%)",
             }}
           >
@@ -75,10 +75,12 @@ export const Inicio = () => {
             />
           </div>
         </ParallaxLayer>
-        <ParallaxLayer factor={1} offset={1} speed={1}>
+        <ParallaxLayer factor={1} offset={1.5} speed={1}>
           <div
             className="container-fluid bg-warning py-5 my-4 d-flex flex-column align-items-center"
-            style={{}}
+            style={{
+              minHeight: "200vh",
+            }}
           >
             <div className="container ">
               <span className="bg-dark text-white px-2 rounded-0 ">
@@ -155,7 +157,7 @@ export const Inicio = () => {
           </div>
         </ParallaxLayer>
         <ParallaxLayer
-          offset={0.35}
+          offset={0.39}
           style={{
             zIndex: "0",
           }}

@@ -1,9 +1,11 @@
 .navbar a{
-    color: #fff;
+    color: #050505; 
     font-weight: bold;
     text-decoration: none;
 transition: all .2s ease-in-out;
 }
+
+
 
 .navbar a::after{
     content: "";

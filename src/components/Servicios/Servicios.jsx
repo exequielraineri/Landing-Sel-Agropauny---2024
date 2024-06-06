@@ -61,13 +61,7 @@ export const Servicios = () => {
     },
   ];
   return (
-    <div
-      className=" bg-opacity-75 container-fluid py-5 "
-      style={{
-        backgroundColor: "rgba(255,255,255,.9)",
-        backdropFilter: "blur(10px)",
-      }}
-    >
+    <div className="bg-white container-fluid py-5 ">
       <div className="container ">
         <span className="bg-warning text-dark px-2 rounded-0 ">Servicios</span>
         <h3 className="fw-bold fs-1">Servicios Especializados</h3>

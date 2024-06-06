@@ -2,7 +2,10 @@ import React from "react";
 
 export const Nosotros = () => {
   return (
-    <div className=" aparecer container-fluid bg-light py-5">
+    <div
+      style={{ minHeight: "150vh" }}
+      className=" aparecer container-fluid bg-light py-5"
+    >
       <div className="container ">
         <span className="bg-warning text-dark px-2 rounded-0 ">
           Sobre Nosotros

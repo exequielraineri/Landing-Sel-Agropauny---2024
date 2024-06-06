@@ -1,0 +1,23 @@
+{
+    "routes":[
+        {
+            "src":"/",
+            "dest":"/"
+        },
+        {
+            "src":"/inicio",
+            "dest":"/"
+        },
+        {
+            "src":"/servicios",
+            "dest":"/"
+        },
+        {
+            "src":"/nosotros",
+            "dest":"/"
+        },
+        {
+            "src":"/galeria",
+            "dest":"/"
+        }]
+    }

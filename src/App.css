@@ -7,6 +7,17 @@
 animation: animacion-fondo .5s ease-in-out forwards;
 }
 
+.img-fondo::after{
+    content: "" ;
+    position: absolute ;
+    top: 0 ;
+    left: 0 ;
+    width: 100% ;
+    height: 100% ;
+    z-index: 1;
+    background: linear-gradient(to top, rgba(0,0,0,.9),transparent);
+}
+
 
 @keyframes animacion{
     from{
@@ -27,7 +38,7 @@ animation: animacion-fondo .5s ease-in-out forwards;
         filter:blur(10px);
         }
         to{
-            opacity: .5;
+            opacity: 1;
             filter:blur(0);
     }
 }

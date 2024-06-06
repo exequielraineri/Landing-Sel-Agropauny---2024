@@ -43,16 +43,17 @@ export const PageNosotros = () => {
             height: "100vh",
             objectFit: "cover",
             objectPosition: "bottom",
-            opacity: 0.6,
+            // opacity: 0.6,
           }}
           src="/evento.jpg"
           alt="Background"
         />
+        <div className="img-fondo"></div>
       </ParallaxLayer>
       <ParallaxLayer offset={0.7} speed={0.3}>
         <Nosotros></Nosotros>
       </ParallaxLayer>
-      <ParallaxLayer offset={1.3} speed={0.4}>
+      <ParallaxLayer offset={1.6} speed={0.4}>
         <div className="py-5 bg-warning">
           <div className="container ">
             <span className="bg-dark text-white px-2 rounded-0 ">Valores</span>

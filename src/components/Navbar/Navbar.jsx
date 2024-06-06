@@ -4,13 +4,18 @@ import Navbar from "react-bootstrap/Navbar";
 import "./Navbar.css";
 import { Link } from "react-router-dom";
 import { Icon } from "@mui/material";
+import { useState } from "react";
 export const NavbarComponent = () => {
+  const [isOpen, setIsOpen] = useState(false);
   return (
     <Navbar
-      style={{ zIndex: "1", backdropFilter: "blur(5px)" }}
+      style={{
+        backdropFilter: "blur(20px)",
+        backgroundColor: "rgba(255,255,255,.7)",
+      }}
       collapseOnSelect
       expand="lg"
-      className="bg-transparent shadow rounded-3"
+      className={" aparece shadow "}
     >
       <Container>
         <Navbar.Brand className="fw-bold">
@@ -31,7 +36,10 @@ export const NavbarComponent = () => {
             Sel Agropauny
           </Link>
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Toggle
+          onClick={() => setIsOpen(!isOpen)}
+          aria-controls="responsive-navbar-nav"
+        />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto menu-links">
             <Nav.Link>

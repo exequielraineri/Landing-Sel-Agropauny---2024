@@ -16,7 +16,7 @@ import { Fade } from "react-awesome-reveal";
 export const Carrusel = () => {
   return (
     <>
-      <div className="aparecer bg-light py-5">
+      <div className="aparecer bg-white py-5">
         <div className="container ">
           <span className="bg-warning text-dark px-2 rounded-0 ">Galeria</span>
           <h3 className="fw-bold fs-1">Momentos Sel Agropauny</h3>

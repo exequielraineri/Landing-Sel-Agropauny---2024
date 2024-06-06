@@ -21,10 +21,10 @@ function App() {
         className="rounded-3"
         style={{
           position: "fixed",
-          width: "90%",
+          width: "100%",
           zIndex: "10",
-          left: "5%",
-          top: "2%",
+          left: "0",
+          top: "0",
         }}
       >
         <NavbarComponent />
